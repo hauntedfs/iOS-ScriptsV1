@@ -47,3 +47,6 @@ btns:Seperator()
 
 btns:Button("Hydro Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FRX397/Hydrohub/main/Hydro_hub", true))()
+
+DiscordLib:Notification("Notification", "Enabled!", "Enjoy!")
+end)
