@@ -1,1 +1,49 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
+local win = DiscordLib:Window("discord library")
+
+local serv = win:Server("iOS Scripts", "rbxassetid://18810484465")
+
+local btns = serv:Channel("Bloxfruit")
+
+btns:Button("Redz Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+
+DiscordLib:Notification("Notification", "Enabled", "Enjoy!")
+end)
+
+btns:Seperator()
+
+btns:Button("Yukai Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/yukaimainscript", true))()
+
+DiscordLib:Notification("Notification", "Enabled!", "Enjoy!")
+end)
+
+local btns = serv:Channel("Dahood")
+
+btns:Button("Swag Mode", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+
+DiscordLib:Notification("Notification", "Enabled!", "Enjoy!")
+end)
+
+btns:Seperator()
+
+btns:Button("Faded", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+
+DiscordLib:Notification("Notification", "Enabled!", "Enjoy!")
+end)
+
+btns:Seperator()
+btns:Button("Balliware", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/BalliwareV2"))()
+
+DiscordLib:Notification("Notification", "Enabled!", "Enjoy!")
+end)
+
+btns:Seperator()
+
+btns:Button("Hydro Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FRX397/Hydrohub/main/Hydro_hub", true))()
